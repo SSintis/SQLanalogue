@@ -3,9 +3,14 @@
 #include <string>
 
 struct SQLdata{
-  int
-}
+  int x;
+};
 
-namespace SQLanalogue {
+class SQLanalogue {
+public:
   void requestVerification(const std::string& request);
-}
+  void createDataBase(const std::string& dataType);
+
+private:
+
+};
